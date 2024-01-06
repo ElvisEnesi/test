@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+    <section id="header">
+        <div id="logo">
+            Pets Store
+        </div>
+        <div>
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Pets  <ion-icon name="caret-down-outline"></ion-icon></a>
+                    <ul id="dropdown">
+                      <li><a href="">Birds</a></li>
+                      <li><a href="cat.html">Cats</a></li>
+                      <li><a href="dog.html">Dogs</a></li>
+                      <li><a href="snake.html">Snakes</a></li>
+                      <li><a class="active" href="#">Turtles</a></li>
+                      <li><a href="ham.html">Hamsters</a></li>
+                      <li><a href="rabbit.html">Rabbits</a></li>
+                      <li><a href="guinea.html">Guinea pigs</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <h1>Turtles.</h1>
+    <div class="cont">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="/images/turtles/sea-2361247_1280.jpg"></div>
+              <div class="swiper-slide"><img src="/images/turtles/diver-549369_640.jpg"></div>
+              <div class="swiper-slide"><img src="/images/turtles/istockphoto-1170804921-612x612.webp"></div>
+              <div class="swiper-slide"><img src="/images/turtles/turtle-2201433_640.jpg"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+          </div>
+    </div>
+    <div class="note">Turtles possess a quiet and contemplative nature that can be captivating to observe. Their deliberate movements and curious exploration of their environment offer a sense of calm and tranquility to their owners. Watching a turtle glide through water or bask under a heat lamp can provide a soothing and meditative experience, enhancing the bond between pet and owner.<br><br>Keeping turtles as pets can be an educational experience, especially for children. Turtles offer insights into the world of reptiles, teaching young minds about various aspects of their biology, habitat, and behaviors. Caring for a turtle encourages learning about aquatic ecosystems, temperature regulation, and proper habitat maintenance, fostering a sense of responsibility and environmental awareness.<br><br>Turtles are renowned for their long lifespans, often living for several decades. This longevity provides a unique opportunity for pet owners to develop a deep and enduring bond with their companions. The stable and consistent nature of turtles can be comforting, especially for those seeking companionship that endures the test of time.<br><br>The world of turtles offers a diverse array of species, each with its unique appearance and characteristics. Whether you're interested in the active and personable Red-Eared Slider or the gentle and aquatic Painted Turtle, there's a turtle species to match every owner's preferences and living space.<br><br>Turtles are quiet companions that won't disrupt your living environment with loud noises. Their tranquil presence adds a peaceful atmosphere to a home, making them an ideal choice for individuals who appreciate a serene ambiance.</div>
+    <h1>Check out other pets.</h1>
+    <div class="wrapper">
+        <section id="container"  onclick="window.location.href='#';">
+            <img src="/images/birds/ferret/istockphoto-1359943854-612x612.webp" alt=""class="image"  >
+            <div class="middle">
+                <div class="text">Ferret</div>
+            </div>
+        </section>
+        <section id="container"  onclick="window.location.href='#';">
+            <img src="/images/birds/goose/goose-3480780_640.jpg" alt=""class="image"  >
+            <div class="middle">
+                <div class="text">Goose</div>
+            </div>
+        </section>
+        <section id="container"  onclick="window.location.href='#';">
+            <img src="/images/birds/parrot/parrot-2756488_640.jpg" alt=""class="image"  >
+            <div class="middle">
+                <div class="text">Parrot</div>
+            </div>
+        </section>
+        <section id="container"  onclick="window.location.href='#';">
+            <img src="/images/birds/Cockatiel/bird-5463539_640.jpg" alt=""class="image"  >
+            <div class="middle">
+                <div class="text">Cockatiel</div>
+            </div>
+        </section>
+    </div>
+    <section id="footer">
+        <div class="fot">
+            <h6>About</h6>
+            <div>
+                <a href="about.html">About us</a>
+                <a href="">Contact</a>
+                <a href="">Gallery</a>
+            </div>
+        </div>
+        <div class="fot">
+            <h6>Account</h6>
+            <div>
+                <a href="">My account</a>
+                <a href="">Payment</a>
+                <a href="">Settings</a>
+            </div>
+        </div>
+        <div class="fot">
+            <h6>Services</h6>
+            <div>
+                <a href="">Be a client</a>
+                <a href="">Met a vet</a>
+                <a href="">Get a pet</a>
+            </div>
+        </div>
+        <div class="fot">
+            <h6>Policy</h6>
+            <div>
+                <a href="">T&C</a>
+                <a href="">Cookies</a>
+                <a href="">Policy</a>
+            </div>
+        </div>
+    </section>
+    <div class="copywrite">
+            Est. 2023 by Elvis Enesi @ Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+    </div>
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>

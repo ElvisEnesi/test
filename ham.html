@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+    <section id="header">
+        <div id="logo">
+            Pets Store
+        </div>
+        <div>
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Pets  <ion-icon name="caret-down-outline"></ion-icon></a>
+                    <ul id="dropdown">
+                      <li><a href="">Birds</a></li>
+                      <li><a href="cat.html">Cats</a></li>
+                      <li><a href="dog.html">Dogs</a></li>
+                      <li><a href="snake.html">Snakes</a></li>
+                      <li><a href="turtles.html">Turtles</a></li>
+                      <li><a class="active" href="#">Hamsters</a></li>
+                      <li><a href="rabbit.html">Rabbits</a></li>
+                      <li><a href="guinea.html">Guinea pigs</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <h1>Hamsters.</h1>
+    <div class="cont">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="/images/hamster/cute-3162209_640.jpg"></div>
+              <div class="swiper-slide"><img src="/images/hamster/hamster-113069_640.jpg"></div>
+              <div class="swiper-slide"><img src="/images/hamster/istockphoto-1398709890-612x612.webp"></div>
+              <div class="swiper-slide"><img src="/images/hamster/animal-1239398_640.jpg"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+          </div>
+    </div>
+    <div class="note">Hamsters are perfect pets for individuals or families with limited living space. Their compact size allows them to comfortably inhabit small enclosures, such as cages or tanks. This makes them suitable for apartment dwellers, students, and anyone with restricted living arrangements.<br><br>Hamsters are relatively low-maintenance pets, making them ideal for busy individuals. Their daily care routine involves providing fresh food and water, cleaning their enclosure regularly, and spending time with them for social interaction. This straightforward care routine is less demanding compared to larger pets, making hamsters an excellent choice for first-time pet owners or those with busy schedules.<br><br>Watching a hamster's playful antics can be highly entertaining and therapeutic. Hamsters are known for their energetic nature, and observing them as they explore tunnels, run on wheels, and burrow through bedding can bring joy and relaxation to their owners. Their curious and active behavior provides constant amusement, fostering a strong bond between pet and owner.<br><br>Hamsters can serve as wonderful companions for children. They teach kids responsibility and empathy as they care for their pet's needs. Additionally, observing the hamster's behaviors and learning about their habits can be an educational experience that sparks curiosity about the animal kingdom.<br><br>Hamsters come in various breeds, each with distinct appearances and personalities. From the friendly Syrian hamsters to the social Dwarf hamsters, there's a breed to suit every pet owner's preferences. This diversity allows individuals to choose a pet that aligns with their lifestyle and temperament.<br><br>Hamsters can form strong bonds with their owners, especially if they are handled regularly and gently from a young age. Over time, hamsters can recognize their owners' scents and voices, leading to heartwarming interactions. The process of taming and bonding with a hamster can be deeply rewarding, fostering a sense of companionship and trust.</div>
+    <h1>Check out other pets.</h1>
+    <div class="wrapper">
+        <section id="container"  onclick="window.location.href='#';">
+            <img src="/images/birds/Finches/zebra-finch-1676642_640.jpg" alt=""class="image"  >
+            <div class="middle">
+                <div class="text">Zebra Finch</div>
+            </div>
+        </section>
+        <section id="container" onclick="window.location.href='#';">
+            <img src="/images/birds/parrot/parrot-2756488_640.jpg" alt=""class="image"  >
+            <div class="middle">
+                <div class="text">Parrot</div>
+            </div>
+        </section>
+        <section id="container" onclick="window.location.href='turtles.html';">
+            <img src="/images/turtles/animal-1868436_1280.jpg" alt=""class="image"  >
+            <div class="middle">
+                <div class="text">Turtle</div>
+            </div>
+        </section>
+        <section id="container" onclick="window.location.href='rabbit.html';">
+            <img src="/images/rabbit/rabbit-6473257_640.jpg" alt=""class="image"  >
+            <div class="middle">
+                <div class="text">Rabbit</div>
+            </div>
+        </section>
+    </div>
+    <section id="footer">
+        <div class="fot">
+            <h6>About</h6>
+            <div>
+                <a href="about.html">About us</a>
+                <a href="">Contact</a>
+                <a href="">Gallery</a>
+            </div>
+        </div>
+        <div class="fot">
+            <h6>Account</h6>
+            <div>
+                <a href="">My account</a>
+                <a href="">Payment</a>
+                <a href="">Settings</a>
+            </div>
+        </div>
+        <div class="fot">
+            <h6>Services</h6>
+            <div>
+                <a href="">Be a client</a>
+                <a href="">Met a vet</a>
+                <a href="">Get a pet</a>
+            </div>
+        </div>
+        <div class="fot">
+            <h6>Policy</h6>
+            <div>
+                <a href="">T&C</a>
+                <a href="">Cookies</a>
+                <a href="">Policy</a>
+            </div>
+        </div>
+    </section>
+    <div class="copywrite">
+            Est. 2023 by Elvis Enesi @ Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+    </div>
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>

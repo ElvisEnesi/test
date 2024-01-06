@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+    <section id="header">
+        <div id="logo">
+            Pets Store
+        </div>
+        <div>
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Pets  <ion-icon name="caret-down-outline"></ion-icon></a>
+                    <ul id="dropdown">
+                      <li><a href="">Birds</a></li>
+                      <li><a href="cat.html">Cats</a></li>
+                      <li><a href="dog.html">Dogs</a></li>
+                      <li><a href="snake.html">Snakes</a></li>
+                      <li><a href="turtles.html">Turtles</a></li>
+                      <li><a href="ham.html">Hamsters</a></li>
+                      <li><a href="rabbit.html">Rabbits</a></li>
+                      <li><a class="active" href="#">Guinea pigs</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <h1>Guinea Pigs.</h1>
+    <div class="cont">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="/images/guinea pig/guinea-pig-1969698_640.jpg"></div>
+              <div class="swiper-slide"><img src="/images/guinea pig/istockphoto-1343474701-612x612.webp"></div>
+              <div class="swiper-slide"><img src="/images/guinea pig/istockphoto-1390349195-612x612.webp"></div>
+              <div class="swiper-slide"><img src="/images/guinea pig/guinea-pig-242520_1280.jpg"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+          </div>
+    </div>
+    <div class="note">One of the most endearing qualities of guinea pigs is their gentle disposition. Unlike some other small animals, guinea pigs are not prone to aggressive behaviors, which makes them well-suited for families with young children or for individuals seeking a peaceful and harmonious pet ownership experience. They rarely bite or scratch, and their interactions are typically marked by curiosity and playfulness. Furthermore, guinea pigs have distinct personalities that can range from shy and reserved to outgoing and curious, allowing pet owners to connect with them on a personal level.<br><br>Guinea pigs are relatively low-maintenance pets compared to some other animals. While they do require a clean living environment, fresh water, and a consistent diet of hay, fresh vegetables, and specially formulated pellets, their care routine is relatively straightforward. Regular interaction and socialization are also important for their well-being, making them pets that provide opportunities for bonding without necessitating extensive training or complicated routines.<br><br>Compared to some other small pets, guinea pigs have a relatively long lifespan, averaging around 5 to 7 years with proper care. This longevity allows pet owners to develop strong bonds and lasting memories with their furry friends.<br><br>Guinea pigs are social animals that thrive on companionship. While they can be kept individually, they generally fare better when housed with at least one same-sex companion. This social aspect of their nature provides opportunities for observing their interactions and forming deeper connections with them.<br><br>Whether you live in an apartment or a house with a yard, guinea pigs can adapt to various living arrangements. They don't require large spaces to roam, making them a great option for individuals who have limited outdoor space or are not able to take their pets for walks.</div>
+    <h1>Check out other pets.</h1>
+    <div class="wrapper">
+        <section id="container" onclick="window.location.href='dog.html';">
+            <img src="/images/dogs/puppy-1047521_640.jpg" alt=""class="image"  >
+            <div class="middle">
+                <div class="text">Dog</div>
+            </div>
+        </section>
+        <section id="container" onclick="window.location.href='#';">
+            <img src="/images/birds/Finches/zebra-finch-1676642_640.jpg" alt=""class="image"  >
+            <div class="middle">
+                <div class="text">Zebra Finch</div>
+            </div>
+        </section>
+        <section id="container" onclick="window.location.href='#';">
+            <img src="/images/birds/ferret/istockphoto-1359943854-612x612.webp" alt=""class="image"  >
+            <div class="middle">
+                <div class="text">Ferret</div>
+            </div>
+        </section>
+        <section id="container" onclick="window.location.href='turtles.html';">
+            <img src="/images/turtles/animal-1868436_1280.jpg" alt=""class="image"  >
+            <div class="middle">
+                <div class="text">Turtle</div>
+            </div>
+        </section> 
+    </div>
+    <section id="footer">
+        <div class="fot">
+            <h6>About</h6>
+            <div>
+                <a href="about.html">About us</a>
+                <a href="">Contact</a>
+                <a href="">Gallery</a>
+            </div>
+        </div>
+        <div class="fot">
+            <h6>Account</h6>
+            <div>
+                <a href="">My account</a>
+                <a href="">Payment</a>
+                <a href="">Settings</a>
+            </div>
+        </div>
+        <div class="fot">
+            <h6>Services</h6>
+            <div>
+                <a href="">Be a client</a>
+                <a href="">Met a vet</a>
+                <a href="">Get a pet</a>
+            </div>
+        </div>
+        <div class="fot">
+            <h6>Policy</h6>
+            <div>
+                <a href="">T&C</a>
+                <a href="">Cookies</a>
+                <a href="">Policy</a>
+            </div>
+        </div>
+    </section>
+    <div class="copywrite">
+            Est. 2023 by Elvis Enesi @ Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+    </div>
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    
+</body>
+</html>
