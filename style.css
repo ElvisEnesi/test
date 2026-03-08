@@ -328,12 +328,13 @@ button:hover{
     background-color: darkslategrey;
 }
 #popup{
-    position: absolute;
+    position: fixed;
     display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transform: translate(140%, 250%);
+    top: 40%;
+    right: 60%;
     z-index: 99;
 }
 #popup .pop{
@@ -732,6 +733,7 @@ button:hover{
     outline: none;
     border: transparent;
     font-size: 15px;
+    width: 100%;
 }
 #whole .right .right-form .form-input textarea{
     padding: 10px;
@@ -937,5 +939,83 @@ button:hover{
     background-color: #bdb0b0;
     color: #333;
 }
+@media screen and (max-width: 850px) {
+    #popup {
+        position: fixed;
+        top: 50%;
+        right: 50%;
+    }
+    #hero{
+        height: 70vh;
+    }
+    #hero h2{
+        font-size: 30px;
+    }
+    button{
+        font-size: 18px;
+    }
+    .note{
+        font-size: 20px;
+        padding: 10px 50px;
+    }
+    #feature {
+        display: none;
+   }
+    #con {
+        flex-direction: column;
+    }
+    #con .container {
+    `width: 100%;
+    }
+    #newsletter {
+        padding: 30px;
+    }
+    #whole {
+        flex-direction: column;
+        padding: 20px;
+    }
+    #whole .left {
+        width: 100%;
+    }
+    #whole .right {
+        width: 100%;
+        padding: 30px;
+    }
+    #whole .right .right-form .form-input input {
+        width: 100%;
+        padding: 10px;
+    }
+    #hero1 {
+        height: 80vh;
+        background-position: top 90% right 30%;
+    }
+    #about {
+        padding: 20px;
+    }
+    #form1 {
+        padding: 30px;
+    }
+    #form1 .wrap {
+        padding: 20px;
+    }
+    #form1 .wrap input {
+        padding: 10px;
+        width: 100%;
+    }
+    .note {
+    font-size: 20px;
+    padding: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .wrapper #container {
+        width: 100%;
+    }
+    #footer {
+        flex-direction: column;
+    }
+}
+
 
 
