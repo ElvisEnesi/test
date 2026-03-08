@@ -334,8 +334,8 @@ button:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    top: 10%;
-    right: 30%;
+    top: 5%;
+    left: 40%;
     z-index: 99;
 }
 #popup .pop{
@@ -967,7 +967,7 @@ button:hover{
     }
     #con .container {
         width: 100%;
-        margin: 5px 0;
+        margin: 15px 0;
     }
     #newsletter {
         padding: 30px;
@@ -1030,6 +1030,7 @@ button:hover{
         flex-direction: column;
     }
 }
+
 
 
 
