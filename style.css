@@ -187,18 +187,18 @@ button:hover{
     height: 40vh;
     padding: 30px 0 50px 0;
     margin: 0 20px;
-    background-image: url(/images/cats/cat-1045782_640.jpg);
+    background-image: url(cat-1045782_640.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
 }
 #con .container:nth-child(2){
-    background-image: url(/images/python/istockphoto-157380680-612x612.webp);
+    background-image: url(istockphoto-157380680-612x612.webp);
     border: 1px solid gray;
 }
 
 #con .container:nth-child(3){
-    background-image: url(/images/dogs/puppy-1047521_640.jpg);
+    background-image: url(puppy-1047521_640.jpg);
 }
 #con .container h2{
     margin: 10px 0 30px 0;
@@ -250,7 +250,7 @@ button:hover{
     align-items: flex-start;
     justify-content: space-between;
     padding: 70px 70px;
-    background-image: url(/images/banner/imgbn2.jpg);
+    background-image: url(imgbn2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -563,7 +563,7 @@ button:hover{
     align-items: center;
     padding: 20px 50px;
     margin: 10px 0;
-    background-image: url(/images/banner/pets-3715733_640.jpg);
+    background-image: url(pets-3715733_640.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top 90% right 0;
@@ -633,7 +633,7 @@ button:hover{
     align-items: center;
     width: 100%;
     height: 60vh;
-    background-image: url(/images/banner/news.webp);
+    background-image: url(news.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 55%;
@@ -937,4 +937,5 @@ button:hover{
     background-color: #bdb0b0;
     color: #333;
 }
+
 
