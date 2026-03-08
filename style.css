@@ -85,7 +85,7 @@ ul li:hover #dropdown{
     padding: 10px 30px;
     height: 130vh;
     width: 100%;
-    background-image: url(/images/banner/istockphoto-1417882544-612x612.webp);
+    background-image: url(istockphoto-1417882544-612x612.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top 15% right 0;
@@ -937,3 +937,4 @@ button:hover{
     background-color: #bdb0b0;
     color: #333;
 }
+
